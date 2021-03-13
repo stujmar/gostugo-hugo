@@ -1,4 +1,4 @@
-This is my portfolio.
+Hello! This is my portfolio.
 
 On this site, you'll find
 
