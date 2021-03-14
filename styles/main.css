@@ -1,3 +1,11 @@
 .main {
   background: #e0ffb1;
 }
+
+.body-style {
+  background: #e0ffb1;
+}
+
+.navstyle {
+  border: 1px solid red;
+}
