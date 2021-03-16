@@ -16,3 +16,8 @@ TOML
 {
     JSON
 }
+
+```bash
+hugo serve
+hugo server -D
+```
