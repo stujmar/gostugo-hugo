@@ -9,3 +9,10 @@
 .navstyle {
     border: 3px solid rgb(221, 94, 94);
 }
+
+.logo {
+    display: block;
+    background: url("./logo.png");
+    width: 200px
+    box-shadow: 0 0 5px black;
+}

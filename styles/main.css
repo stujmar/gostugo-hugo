@@ -9,3 +9,9 @@
 .navstyle {
   border: 3px solid #dd5e5e;
 }
+
+.header {
+  display:flex;
+  flex-direction: row;
+}
+
