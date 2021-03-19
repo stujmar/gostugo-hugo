@@ -1,5 +1,5 @@
 .main {
-  background: #e0ffb1;
+  background: #7dbe1c;
 }
 
 .body-style {
@@ -10,8 +10,10 @@
   border: 3px solid #dd5e5e;
 }
 
-.header {
-  display:flex;
-  flex-direction: row;
+.logo {
+  display: block;
+  background: url("./logo.png");
+  width: 200px;
+  -webkit-box-shadow: 0 0 5px black;
+          box-shadow: 0 0 5px black;
 }
-
