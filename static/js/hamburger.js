@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("collapsible");
+var coll = document.getElementsByClassName("hamburger");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -6,6 +6,7 @@ for (i = 0; i < coll.length; i++) {
     this.classList.toggle("active");
     // var content = this.nextElementSibling;
     let content = document.getElementById("toggle-menu");
+    console.log("click");
     if (content.style.display === "block") {
       content.style.display = "none";
     } else {
