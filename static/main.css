@@ -7,3 +7,24 @@
   background: url("./logo.png");
   width: 200px;
 }
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6px;
+  background: white;
+  border: 1px #e2e2e2 solid;
+}
+
+.patty {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: #9b9b9b;
+}
