@@ -60,8 +60,10 @@
 }
 
 .menu-toggle {
-  display: none;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
   overflow: hidden;
+  max-height: 0;
 }
 
 .link {
