@@ -1,5 +1,9 @@
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
-    <div>This is from the contact.html</div>
+    <div>image goes here.</div>
+    <div>{{ .Params.name }}</div>
+    <div>email: {{ .Params.email }}</div>
+    <div>twitter: {{ .Params.twitter }}</div>
+    <hr>
     {{ .Content }}
 {{ end }}
