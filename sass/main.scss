@@ -12,8 +12,11 @@
 
 // .navstyle {
 // }
+header {
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
 
-.header {
+.header-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,7 +47,7 @@
 
 .link-holder {
   display: flex;
-  padding: 15px;
+  padding: 0px 15px 15px;
   gap: 15px;
   flex-direction: column;
 }
