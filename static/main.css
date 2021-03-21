@@ -79,3 +79,16 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
 }
+
+.desktop-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .desktop-menu {
+    display: block;
+  }
+}
