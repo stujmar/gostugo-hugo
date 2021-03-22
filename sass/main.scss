@@ -1,3 +1,6 @@
+@import 'contact';
+
+
 * {
   padding: 0;
   margin: 0;
@@ -72,16 +75,6 @@ a, a:hover, a:focus, a:active {
 
 .desktop-menu {
   display: none;
-}
-
-.contact {
-  text-align: center;
-}
-
-.contact-pic {
-  width: 25vw;
-  margin: 0 auto;
-  min-width: 200px;
 }
 
 // TAILWIND: sm
