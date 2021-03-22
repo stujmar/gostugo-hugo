@@ -26,3 +26,5 @@ fields:
     maxSize: 64
   label: Please upload a photo
   description: please make the photo of Stuart Marsh, this is his site.
+pages:
+- content/contact.md
