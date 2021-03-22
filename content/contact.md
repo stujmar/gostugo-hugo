@@ -5,6 +5,6 @@ layout: contact
 name: Stuart John Marsh
 email: stujmar@gmail.com
 twitter: "@stujmar"
-photo: ''
+photo: "/uploads/headshot_500.jpg"
 
 ---
