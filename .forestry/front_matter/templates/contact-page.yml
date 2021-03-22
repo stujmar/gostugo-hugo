@@ -20,3 +20,9 @@ fields:
 - type: text
   name: twitter
   label: twitter
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Please upload a photo
+  description: please make the photo of Stuart Marsh, this is his site.
