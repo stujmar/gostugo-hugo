@@ -33,7 +33,7 @@
 .link {
   color:rgb(155, 155, 155);
   text-decoration: none;
-  font-size: .9rem;
+  font-size: 1rem;
   margin-right: 20px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
@@ -54,12 +54,6 @@ a, a:hover, a:focus, a:active {
 
 // TAILWIND: md
 @media only screen and (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
-  .desktop-menu {
-    display: block;
-  }
 }
 
 // TAILWIND: lg
