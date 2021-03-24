@@ -1,5 +1,5 @@
 @import 'contact';
-
+@import 'header';
 
 * {
   padding: 0;
@@ -15,37 +15,7 @@
 
 // .navstyle {
 // }
-header {
-  border-bottom: 1px solid rgb(219, 219, 219);
-}
 
-.header-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px;
-}
-
-.logo {
-    display: block;
-    width: 200px;
-}
-
-.hamburger {
-  display: flex;
-  padding: 10px 12px;
-  flex-direction: column;
-  gap: 6px;
-  background: white;
-  border: 1px rgb(226, 226, 226) solid;
-}
-
-.patty {
-  display: block;
-  width: 25px;
-  height: 2px;
-  background: rgb(155, 155, 155);
-}
 
 .link-holder {
   display: flex;

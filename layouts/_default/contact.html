@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="contact">
-    <!-- <h2>{{ .Title }}</h2> -->
-    <img class="contact-pic" src="/uploads/headshot_500.jpg" alt="picture of Stuart John Marsh">
+    <img class="contact-pic" src={{ .Params.photo }} alt="picture of Stuart John Marsh">
     <div>{{ .Params.name }}</div>
     <div>email: {{ .Params.email }}</div>
     <div>twitter: {{ .Params.twitter }}</div>
