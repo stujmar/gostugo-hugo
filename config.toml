@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "http://gostugo.com/"
 languageCode = "en-us"
 title = "Go Stu Go"
+author = "Stuart John Marsh
 theme = "basic"
