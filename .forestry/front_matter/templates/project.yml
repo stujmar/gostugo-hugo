@@ -8,3 +8,19 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: project_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Project Description
+  description: describe the project here.
+- name: project_image
+  type: file
+  config:
+    maxSize: 64
+  label: Project image
+  description: upload an image to represent the project please.
