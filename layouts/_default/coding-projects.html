@@ -1,4 +1,9 @@
 {{ define "main" }}
 <p>this is coding projects page.</p>
+<ul>
+    {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul>
 {{ .Content }}
 {{ end }}
