@@ -6,6 +6,9 @@
         <!-- {{- partial "nav.html" . -}} -->
         <div id="content"> This is coming from the baseof.html in the theme/_default folder
         {{- block "main" . }}{{- end }}
+        {{ printf "baseURL      : %s" .Site.BaseURL }}<br>
+        {{ printf "Permalink    : %s" .Permalink }}<br>
+        {{ printf "RelPermalink : %s" .RelPermalink }}<br>
         </div>
         {{- partial "footer.html" . -}}
     </body>

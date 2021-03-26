@@ -1,9 +1,10 @@
-{{ $projects := "http://localhost:1313/projects/"}}
-
+{{ $projects := (print .Site.BaseURL "projects/") }}
+{{ $baseurl :=   .Site.BaseURL  }}
 
 <header>
     <div class="header-bar">
-        {{ printf "%#v" .Permalink }}
+        <!-- {{ printf "%#v" .Permalink }}
+        {{ printf "%#v" $projects }} -->
         <a href="/"><img class="logo" width="200px" src="../../../../logo.png" alt={{ .Site.Title }}></a>
         <button class="hamburger">
             <div class="patty"></div>
@@ -11,7 +12,7 @@
             <div class="patty"></div>
         </button>
         <div class="desktop-menu">
-            <a class="link" href="/projects">Projects</a>
+            {{ if not (eq .Permalink $projects) }}<a class="link" href="/projects">Projects</a> {{ end }}
             <a class="link" href="/contact">Contact</a>
         </div>
     </div>
