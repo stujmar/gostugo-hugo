@@ -1,3 +1,6 @@
+{{ $projects := "http://localhost:1313/projects/"}}
+
+
 <header>
     <div class="header-bar">
         {{ printf "%#v" .Permalink }}
@@ -14,7 +17,7 @@
     </div>
     <div class="menu-toggle" id="menu-toggle">
         <div class="link-holder">
-            <a class="link" href="/projects">Projects</a>
+            {{ if not (eq .Permalink $projects) }}<a class="link" href="/projects">Projects</a> {{ end }}
             <a class="link" href="/contact">Contact</a>
         </div>
     </div>
