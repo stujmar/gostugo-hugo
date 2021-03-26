@@ -1,5 +1,9 @@
 {{ define "main" }}
-<p>this is coding projects page.</p>
+<div class="projects">
+    <div class="projects-header">
+        {{ .Params.Heading }}
+    </div>
+</div>
 <ul>
     <a class="link" href="/coding-projects">Coding Projects</a>
     {{ range .Pages }}
