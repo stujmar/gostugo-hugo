@@ -14,13 +14,13 @@
         </button>
         <div class="desktop-menu">
             {{ if not (eq .Permalink $projects) }}<a class="link" href="/projects">Projects</a> {{ end }}
-            <a class="link" href="/contact">Contact</a>
+            {{ if not (eq .Permalink $contacts) }} <a class="link" href="/contact">Contact</a> {{ end }}
         </div>
     </div>
     <div class="menu-toggle" id="menu-toggle">
         <div class="link-holder">
             {{ if not (eq .Permalink $projects) }}<a class="link" href="/projects">Projects</a> {{ end }}
-            <a class="link" href="/contact">Contact</a>
+            {{ if not (eq .Permalink $contacts) }} <a class="link" href="/contact">Contact</a> {{ end }}
         </div>
     </div>
 </header>
