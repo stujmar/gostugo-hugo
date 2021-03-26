@@ -13,6 +13,7 @@
             <div class="patty"></div>
         </button>
         <div class="desktop-menu">
+            {{ if not (eq .Permalink $home) }}<a class="link" href="/">Home</a> {{ end }}
             {{ if not (eq .Permalink $projects) }}<a class="link" href="/projects">Projects</a> {{ end }}
             {{ if not (eq .Permalink $contacts) }} <a class="link" href="/contact">Contact</a> {{ end }}
         </div>
