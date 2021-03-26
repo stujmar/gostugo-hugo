@@ -1,9 +1,10 @@
+
 .projects {
     background: white;
     border-bottom: 1px solid #c0c0c0;
 
     #{&}-header {
-        color: #9b9b9b;
+        color: $gostugoGray;
         width: 75%;
         margin: 20px auto 40px;
         font-size: 1.25rem;

@@ -1,7 +1,8 @@
-Hello! This is my portfolio.
+---
+title: "Go Stu go"
+date: 2021-03-12T19:25:42-06:00
+draft: false
+layout: root
+---
 
-On this site, you'll find
-
-* My biography
-* My projests
-* My résumé
+Hello from the _index.md in the content folder.
