@@ -1,5 +1,6 @@
 <header>
     <div class="header-bar">
+        {{ printf "%#v" .Permalink }}
         <a href="/"><img class="logo" width="200px" src="../../../../logo.png" alt={{ .Site.Title }}></a>
         <button class="hamburger">
             <div class="patty"></div>
