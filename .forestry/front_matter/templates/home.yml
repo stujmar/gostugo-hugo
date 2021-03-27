@@ -11,3 +11,15 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: welcome_text
+  type: text
+  config:
+    required: false
+  label: Welcome Text
+  description: Add some welcome text to the home page.
+- name: landing_image
+  type: file
+  config:
+    maxSize: 64
+  label: Landing Image
+  description: Put in a nice drawing or image to display when users land on the page.
