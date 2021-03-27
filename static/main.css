@@ -351,6 +351,10 @@ template {
   padding: 5px;
 }
 
+.content {
+  margin: 20px;
+}
+
 .contact {
   text-align: center;
 }
