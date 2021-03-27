@@ -1,10 +1,12 @@
 {{ $projects := (print .Site.BaseURL "projects/") }}
 {{ $contacts := (print .Site.BaseURL "contact/") }}
-{{ $home := "https://gostugo.netlify.app" }}
+{{ $home := "https://gostugo.netlify.app/" }}
 
 <header>
     <div class="header-bar">
-        <a href="/"><img class="logo" width="200px" src="../../../../logo.png" alt={{ .Site.Title }}></a>
+        {{ printf "%#v" .Permalink }}
+        {{ printf "%#v" $home }}
+        <!-- <a href="/"><img class="logo" width="200px" src="../../../../logo.png" alt={{ .Site.Title }}></a> -->
         <button class="hamburger">
             <div class="patty"></div>
             <div class="patty"></div>
