@@ -1,9 +1,15 @@
 .home {
     text-align: center;
-
+    margin-top: -20px;
+    #{&}-image {
+        width: 100vw;
+        max-width: 1200px;
+    }
     #{&}-welcome {
-        color: $gostugoGray;
+        color: $text-grey;
         font-size: 1.25rem;
         font-weight: 300;
+        padding: 25px 20px;
+        border-bottom: 1px solid $border-grey;
     }
 }
