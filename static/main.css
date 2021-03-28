@@ -355,6 +355,16 @@ template {
   margin: 20px;
 }
 
+.home {
+  text-align: center;
+}
+
+.home .home-welcome {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .contact {
   text-align: center;
 }

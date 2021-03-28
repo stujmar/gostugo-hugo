@@ -1,0 +1,9 @@
+.home {
+    text-align: center;
+
+    #{&}-welcome {
+        color: $gostugoGray;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+}
