@@ -356,9 +356,20 @@ template {
   margin-top: -20px;
 }
 
+.home .home-banner {
+  position: relative;
+}
+
 .home .home-image {
   width: 100vw;
   max-width: 1200px;
+}
+
+.home .home-cta {
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
 .home .home-welcome {

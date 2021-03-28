@@ -1,6 +1,9 @@
 {{ define "main"}}
 <div class="home">
-    <img class="home-image" src={{.Params.Landing_image}}>
+    <div class="home-banner">
+        <img class="home-image" src={{.Params.Landing_image}}> 
+        <div class="home-cta">Hello world</div>
+    </div>
     <p class="home-welcome">{{ .Params.Welcome_text }}</p>
 </div>    
     {{ .Content }}

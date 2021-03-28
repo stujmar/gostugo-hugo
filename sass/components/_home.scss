@@ -1,10 +1,23 @@
 .home {
     text-align: center;
     margin-top: -20px;
+    
+    #{&}-banner {
+        position: relative;
+    }
+
     #{&}-image {
         width: 100vw;
         max-width: 1200px;
     }
+
+    #{&}-cta {
+        bottom: 25px;
+        left: 0;
+        right: 0;  
+        position: absolute;
+    }
+
     #{&}-welcome {
         color: $text-grey;
         font-size: 1.25rem;
