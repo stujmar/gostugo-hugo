@@ -1,0 +1,21 @@
+.footer {
+    box-sizing: border-box;
+    width: 100vw;
+    display: block;
+    padding: 20px 0;
+    height: 75px;
+    text-align: center;
+    margin-top: -75px;
+
+    #{&}-inner {
+        display:block;
+        background: white;
+    }
+
+    #{&}-content {
+        display:block;
+        width: 33%;
+        margin: 0 auto;
+    }
+
+}
