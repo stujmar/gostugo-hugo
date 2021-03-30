@@ -24,3 +24,5 @@ fields:
     maxSize: 64
   label: Project image
   description: upload an image to represent the project please.
+pages:
+- content/projects/edgar-yolkman.md
