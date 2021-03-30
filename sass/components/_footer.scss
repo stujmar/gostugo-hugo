@@ -1,21 +1,49 @@
 .footer {
     box-sizing: border-box;
-    width: 100vw;
-    display: block;
-    padding: 20px 0;
+    display:block;
     height: 75px;
-    text-align: center;
+    padding: 20px 0;
     margin-top: -75px;
-
+    text-align: center;
+    width: 100vw;
+    
     #{&}-inner {
-        display:block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background: white;
+        @media only screen and (min-width: 640px) {
+            flex-direction: row;
+        }
     }
 
-    #{&}-content {
+    #{&}-copy {
         display:block;
-        width: 33%;
-        margin: 0 auto;
-    }
 
+    }
+    #{&}-name {
+        display:block;
+        margin: 0 8px;
+
+    }
+}
+
+// TAILWIND: sm
+@media only screen and (min-width: 640px) {
+}
+
+// TAILWIND: md
+@media only screen and (min-width: 768px) {
+}
+
+// TAILWIND: lg
+@media only screen and (min-width: 1024px) {
+}
+
+// TAILWIND: xl
+@media only screen and (min-width: 1280px) {
+}
+
+// TAILWIND: 2xl
+@media only screen and (min-width: 1536px) {
 }
