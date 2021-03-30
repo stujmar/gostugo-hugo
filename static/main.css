@@ -379,7 +379,9 @@ html, body {
   right: 0;
   margin: 0 auto;
   position: absolute;
-  width: 200px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 10px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
