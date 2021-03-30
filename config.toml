@@ -1,5 +1,6 @@
 baseURL = "https://gostugo.netlify.app/"
 languageCode = "en-us"
 title = "Go Stu Go"
-author = "Stuart John Marsh"
 theme = "basic"
+[params]
+    author = "Stuart John Marsh"
