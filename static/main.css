@@ -536,6 +536,11 @@ a, a:hover, a:focus, a:active {
   }
 }
 
+.project-photo {
+  width: 75%;
+  border: 1px solid black;
+}
+
 .projects {
   background: white;
   border-bottom: 1px solid #c0c0c0;
