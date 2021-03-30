@@ -2,8 +2,8 @@
 <div class="contact">
     <img class="contact-pic" src={{ .Params.photo }} alt="picture of Stuart John Marsh">
     <div class="contact-link">{{ .Params.name }}</div>
-    <div class="contact-link">email: {{ .Params.email }}</div>
-    <div class="contact-link">twitter: {{ .Params.twitter }}</div>
+    <div class="contact-link">email: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></div>
+    <div class="contact-link">twitter:  <a target="_blank" href="https://twitter.com/stujmar">{{ .Params.twitter }}</a></div>
 </div>
 {{ .Content }}
 {{ end }}
