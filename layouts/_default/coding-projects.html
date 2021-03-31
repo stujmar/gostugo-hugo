@@ -1,7 +1,7 @@
 {{ define "main" }}
 <p>this is coding projects page.</p>
 <ul>
-    <a class="link" href="/projects">Back to projects</a>
+    <a class="coding-link" href="/projects">Back to projects</a>
     {{ range .Pages }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
