@@ -5,11 +5,14 @@
     </div>
     Looking for <a class="coding-link" href="/coding-projects">Coding Projects?</a>
 </div>
-<ul>
+<ul class="projects-wrapper">
     {{ range .Pages }}
-    <li>
-        <img src="https://dummyimage.com/150x150/000/fff.jpg&text=150X150" alt="placeholder">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <li class="entry">
+        <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <div class="entry-body">
+            <img class="entry-image" src="https://dummyimage.com/150x150/000/fff.jpg&text=150X150" alt="placeholder">
+            <p class="entry-copy">project copy</p>
+        </div>
     </li>
     {{ end }}
     </ul>

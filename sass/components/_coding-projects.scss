@@ -1,0 +1,22 @@
+.projects-wrapper {
+    margin: 0 25px;
+}
+
+.entry {
+    margin-top: 20px;
+    list-style: none;
+    #{&}-title {
+        border: 1px solid red;
+    }
+    #{&}-body {
+        display: flex;
+        border: 1px solid rgb(255, 0, 191);
+    }
+    #{&}-image {
+        border: 1px solid green;
+    }
+    #{&}-copy {
+        width: 100%;
+        border: 1px solid blue;
+    }
+}

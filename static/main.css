@@ -573,6 +573,35 @@ a, a:hover, a:focus, a:active {
   color: #8acf1b;
 }
 
+.projects-wrapper {
+  margin: 0 25px;
+}
+
+.entry {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.entry .entry-title {
+  border: 1px solid red;
+}
+
+.entry .entry-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ff00bf;
+}
+
+.entry .entry-image {
+  border: 1px solid green;
+}
+
+.entry .entry-copy {
+  width: 100%;
+  border: 1px solid blue;
+}
+
 .footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
