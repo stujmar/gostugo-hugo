@@ -3,9 +3,9 @@
     <div class="projects-header">
         {{ .Params.Heading }}
     </div>
+    Looking for <a class="coding-link" href="/coding-projects">Coding Projects?</a>
 </div>
 <ul>
-    <a class="link" href="/coding-projects">Coding Projects</a>
     {{ range .Pages }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}

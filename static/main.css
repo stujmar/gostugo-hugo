@@ -559,14 +559,18 @@ a, a:hover, a:focus, a:active {
 .projects {
   background: white;
   border-bottom: 1px solid #c0c0c0;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .projects .projects-header {
-  color: rgba(0, 0, 0, 0.5);
   width: 75%;
   margin: 20px auto 40px;
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+.coding-link:hover {
+  color: #8acf1b;
 }
 
 .footer {
