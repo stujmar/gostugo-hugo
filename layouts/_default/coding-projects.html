@@ -3,7 +3,9 @@
 <ul>
     <a class="coding-link" href="/projects">Back to projects</a>
     {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    <li>
+        <img src="https://dummyimage.com/150x150/000/fff.jpg&text=150X150" alt="placeholder">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
     </ul>
 {{ .Content }}
