@@ -1,9 +1,11 @@
 {{ define "main" }}
 <div class="projects">
     <div class="projects-header">
-        {{ .Params.Heading }}
+        {{ .Params.Heading }} <br>
+        <div class="coding">
+            Looking specficially for <a class="coding-link" href="/coding-projects">Coding Projects?</a>
+        </div>
     </div>
-    Looking for <a class="coding-link" href="/coding-projects">Coding Projects?</a>
 </div>
 <ul class="projects-wrapper">
     {{ range .Pages }}

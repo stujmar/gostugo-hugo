@@ -578,6 +578,11 @@ a, a:hover, a:focus, a:active {
   font-weight: 300;
 }
 
+.coding {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
 .coding-link:hover {
   color: #8acf1b;
 }
