@@ -374,18 +374,27 @@ html, body {
 }
 
 .home .home-cta {
-  bottom: 25px;
   left: 0;
   right: 0;
+  border: 1px solid white;
+  border-radius: .25rem;
+  bottom: 25px;
   margin: 0 auto;
   position: absolute;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  border: 1px solid white;
+}
+
+.home .home-cta:hover {
+  color: #e2e2e2;
+  background: rgba(68, 68, 68, 0.8);
 }
 
 .home .home-welcome {
