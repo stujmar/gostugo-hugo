@@ -10,9 +10,9 @@
 <ul class="projects-wrapper">
     {{ range .Pages }}
     <li class="entry">
-        <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <img class="entry-image" src="https://dummyimage.com/150x100/000/fff.jpg&text=150X100" alt="placeholder">
         <div class="entry-body">
-            <img class="entry-image" src="https://dummyimage.com/150x150/000/fff.jpg&text=150X150" alt="placeholder">
+            <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
             <p class="entry-copy">project copy</p>
         </div>
     </li>

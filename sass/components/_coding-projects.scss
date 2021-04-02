@@ -9,6 +9,8 @@
 .entry {
     margin-top: 20px;
     list-style: none;
+    border: 1px solid blue;
+    
     #{&}-title {
         border: 1px solid red;
     }
@@ -18,10 +20,11 @@
     }
     #{&}-image {
         border: 1px solid green;
+        width: 100%;
+        
     }
     #{&}-copy {
         width: 100%;
-        border: 1px solid blue;
     }
 }
 

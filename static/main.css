@@ -601,6 +601,7 @@ a, a:hover, a:focus, a:active {
 .entry {
   margin-top: 20px;
   list-style: none;
+  border: 1px solid blue;
 }
 
 .entry .entry-title {
@@ -616,11 +617,11 @@ a, a:hover, a:focus, a:active {
 
 .entry .entry-image {
   border: 1px solid green;
+  width: 100%;
 }
 
 .entry .entry-copy {
   width: 100%;
-  border: 1px solid blue;
 }
 
 @media only screen and (min-width: 640px) {
