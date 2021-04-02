@@ -589,6 +589,13 @@ a, a:hover, a:focus, a:active {
 
 .projects-wrapper {
   margin: 0 25px;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 5px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
 }
 
 .entry {
@@ -614,6 +621,27 @@ a, a:hover, a:focus, a:active {
 .entry .entry-copy {
   width: 100%;
   border: 1px solid blue;
+}
+
+@media only screen and (min-width: 640px) {
+  .projects-wrapper {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-wrapper {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects-wrapper {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .footer {
