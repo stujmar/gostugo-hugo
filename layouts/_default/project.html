@@ -6,4 +6,10 @@
     <hr>
 </div>
 {{ .Content }}
+{{ if eq .Params.project_type "coding project" }} 
+back to <a>coding projects</a>
+{{ else }}
+back to <a>projects</a>
+{{ end }}
+
 {{ end }}
