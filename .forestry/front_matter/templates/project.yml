@@ -35,7 +35,9 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - project
+    - " coding project"
     source:
       type: simple
       section: 
