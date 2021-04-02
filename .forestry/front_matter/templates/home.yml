@@ -23,5 +23,11 @@ fields:
     maxSize: 64
   label: Landing Image
   description: Put in a nice drawing or image to display when users land on the page.
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: logo
+  description: logo for top left of navbar
 pages:
 - content/_index.md
