@@ -47,4 +47,5 @@ fields:
   description: pick your project type
 pages:
 - content/projects/edgar-yolkman.md
+- content/projects/edgewater-workbench.md
 - content/projects/puzzle-truck.md
