@@ -613,6 +613,7 @@ a, a:hover, a:focus, a:active {
 
 .entry .entry-title {
   font-size: 1.1rem;
+  border-bottom: 1px solid black;
 }
 
 .entry .entry-body {
@@ -633,11 +634,6 @@ a, a:hover, a:focus, a:active {
 .entry .entry-copy {
   padding: 5px;
   width: 100%;
-}
-
-.entry:hover {
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
 }
 
 @media only screen and (min-width: 640px) {
