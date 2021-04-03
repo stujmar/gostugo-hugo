@@ -10,7 +10,7 @@
 <ul class="projects-wrapper">
     {{ range .Pages }}
     <li class="entry">
-        <img class="entry-image" src="https://dummyimage.com/150x100/000/fff.jpg&text=150X100" alt="placeholder">
+        <img class="entry-image" src="{{ .Params.project_image }}" alt="placeholder">
         <div class="entry-body">
             <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
             <hr>
