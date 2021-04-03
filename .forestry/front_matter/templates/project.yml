@@ -46,6 +46,7 @@ fields:
   label: project type
   description: pick your project type
 pages:
+- content/projects/earthmounds.md
 - content/projects/edgar-yolkman.md
 - content/projects/edgewater-workbench.md
 - content/projects/puzzle-truck.md
