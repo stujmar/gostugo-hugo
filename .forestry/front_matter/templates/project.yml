@@ -46,6 +46,7 @@ fields:
   label: project type
   description: pick your project type
 pages:
+- content/coding-projects/ui-tests.md
 - content/coding-projects/vue-quiz.md
 - content/projects/earthmounds.md
 - content/projects/edgar-yolkman.md
