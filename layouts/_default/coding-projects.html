@@ -9,12 +9,14 @@
 </div>
 <ul class="projects-wrapper">
     {{ range .Pages }}
-    <li class="entry">
-        <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <li class="entry"><a href="{{ .RelPermalink }}">
+        <img class="entry-image" src="{{ .Params.project_image }}" alt="placeholder">
         <div class="entry-body">
-            <img class="entry-image" src="https://dummyimage.com/150x150/000/fff.jpg&text=150X150" alt="placeholder">
-            <p class="entry-copy">project copy</p>
+            <h2 class="entry-title">{{ .Title }}</h2>
+            <!-- <hr> -->
+            <p class="entry-copy">A brief description of the project</p>
         </div>
+    </a>
     </li>
     {{ end }}
     </ul>
