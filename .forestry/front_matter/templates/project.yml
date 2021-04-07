@@ -47,6 +47,7 @@ fields:
   description: pick your project type
 pages:
 - content/coding-projects/classswapper.md
+- content/coding-projects/compound-interest.md
 - content/coding-projects/hotdogger.md
 - content/coding-projects/tree-painter.md
 - content/coding-projects/ui-tests.md
