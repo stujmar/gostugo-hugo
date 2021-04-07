@@ -566,6 +566,14 @@ a, a:hover, a:focus, a:active {
   border: 1px solid black;
 }
 
+.project-back {
+  margin-left: 10px;
+}
+
+.project-back:hover {
+  color: #8acf1b;
+}
+
 .projects {
   background: white;
   border-bottom: 1px solid #c0c0c0;

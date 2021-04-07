@@ -7,9 +7,9 @@
 </div>
 {{ .Content }}
 {{ if eq .Params.project_type "coding project" }} 
-back to <a href="/coding-projects">coding projects</a>
+<a href="/coding-projects">back to coding projects</a>
 {{ else }}
-back to <a href="/projects">projects</a>
+<a class="project-back" href="/projects">back to projects</a>
 {{ end }}
-
+{{ . | jsonify}}
 {{ end }}
