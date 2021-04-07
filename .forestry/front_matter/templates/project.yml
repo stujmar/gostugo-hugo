@@ -37,7 +37,7 @@ fields:
     required: false
     options:
     - project
-    - " coding project"
+    - coding project
     source:
       type: simple
       section: 
