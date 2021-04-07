@@ -5,6 +5,6 @@ layout: project
 project_image: "/uploads/treepainter.png"
 project_description: ''
 square_thumbnail: ''
-project_type: ''
+project_type: coding project
 
 ---

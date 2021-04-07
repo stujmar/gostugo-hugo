@@ -5,6 +5,6 @@ layout: project
 project_image: "/uploads/hotdogger.png"
 project_description: ''
 square_thumbnail: ''
-project_type: " coding project"
+project_type: coding project
 
 ---
