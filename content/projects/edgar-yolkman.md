@@ -6,6 +6,6 @@ project_image: "/uploads/yolkman.png"
 project_description: The Hard Boiled Life of Edgar Yolkman is a slice of life story
   following Edgar a yolk man.
 square_thumbnail: ''
-project_type: ''
+project_type: 'project'
 
 ---

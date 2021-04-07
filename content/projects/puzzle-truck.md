@@ -6,5 +6,6 @@ project_type: project
 project_image: "/uploads/puzzle.png"
 project_description: ''
 square_thumbnail: ''
+project_type: 'project'
 
 ---

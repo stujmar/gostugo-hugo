@@ -5,6 +5,6 @@ layout: project
 project_description: ''
 project_image: "/uploads/workbench.png"
 square_thumbnail: ''
-project_type: ''
+project_type: 'project'
 
 ---
