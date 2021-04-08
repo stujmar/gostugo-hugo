@@ -6,10 +6,9 @@ project_type: project
 project_image: "/uploads/puzzle.png"
 project_description: ''
 square_thumbnail: ''
-project_type: 'project'
+date_range: "(2014 - 2017)"
 
 ---
-
 A brief description of the project.
 
  <!--more--> 
