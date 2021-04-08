@@ -3,7 +3,11 @@
     <div class="projects-header">
         {{ .Params.Heading }} <br>
         <div class="coding">
+            {{ if eq .Title "Projects" }}
             <a class="coding-link" href="/coding-projects">Looking specficially for Coding Projects?</a>
+            {{ else }}
+            <a class="coding-link" href="/projects">Want to go back to Projects?</a>
+            {{ end }}
         </div>
     </div>
 </div>
