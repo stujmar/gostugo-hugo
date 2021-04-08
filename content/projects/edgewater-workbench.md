@@ -5,10 +5,10 @@ layout: project
 project_description: ''
 project_image: "/uploads/workbench.png"
 square_thumbnail: ''
-project_type: 'project'
+project_type: project
+date_range: "(2014-2019)"
 
 ---
-
 A brief description of the project.
 
  <!--more--> 
