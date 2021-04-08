@@ -45,6 +45,12 @@ fields:
       path: 
   label: project type
   description: pick your project type
+- name: date_range
+  type: text
+  config:
+    required: false
+  label: Date Range
+  description: add the date range of the project (2011-2014) for example
 pages:
 - content/coding-projects/classswapper.md
 - content/coding-projects/compound-interest.md
