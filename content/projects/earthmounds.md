@@ -5,10 +5,10 @@ layout: project
 project_description: ''
 project_image: "/uploads/earthmounds.png"
 square_thumbnail: ''
-project_type: 'project'
+project_type: project
+date_range: "(2017 - Current)"
 
 ---
-
 A brief description of the project.
 
  <!--more--> 
