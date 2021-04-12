@@ -378,16 +378,16 @@ html, body {
   left: 0;
   right: 0;
   border: 1px solid white;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   bottom: 25px;
   margin: 0 auto;
   position: absolute;
   padding: 10px;
   background: rgba(255, 255, 255, 0.75);
-  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -422,7 +422,7 @@ html, body {
 }
 
 .links .links-link {
-  margin: 0 16px;
+  margin: 10px 16px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

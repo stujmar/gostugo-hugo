@@ -1,66 +1,67 @@
 .home {
-    text-align: center;
-    margin-top: -20px;
-    
-    #{&}-banner {
-        position: relative;
-    }
+  text-align: center;
+  margin-top: -20px;
 
-    #{&}-image {
-        width: 100vw;
-        max-width: 1200px;
-    }
+  #{&}-banner {
+    position: relative;
+  }
 
-    #{&}-cta {
-        left: 0;
-        right: 0;  
-        border: 1px solid white;
-        border-radius: .25rem;
-        bottom: 25px;
-        margin: 0 auto;
-        position: absolute;
-        padding: 10px;
-        background: rgba(255, 255, 255, 0.75);
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-        width: fit-content;
-    }
+  #{&}-image {
+    width: 100vw;
+    max-width: 1200px;
+  }
 
-    #{&}-cta:hover {
-        color:rgb(226, 226, 226);
-        background: rgba(68, 68, 68, 0.8);
-    }
+  #{&}-cta {
+    left: 0;
+    right: 0;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    bottom: 25px;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.75);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: fit-content;
+  }
 
-    #{&}-welcome {
-        color: $text-grey;
-        font-size: 1.25rem;
-        font-weight: 300;
-        padding: 25px 20px;
-        border-bottom: 1px solid $border-grey;
-    }
+  #{&}-cta:hover {
+    color: rgb(226, 226, 226);
+    background: rgba(68, 68, 68, 0.8);
+  }
+
+  #{&}-welcome {
+    color: $text-grey;
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding: 25px 20px;
+    border-bottom: 1px solid $border-grey;
+  }
 }
 
 .links {
-    padding-top: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  #{&}-link {
+    margin: 10px 16px 0;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    #{&}-link {
-        margin: 0 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    #{&}-link:hover {
-        color: rgb(138, 207, 27);
-    }
-    #{&}-icon {
-        width: 20px;
-        display: inline-block;
-    }
-    #{&}-label {
-        display: inline-block;
-    }
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  #{&}-link:hover {
+    color: rgb(138, 207, 27);
+  }
+  #{&}-icon {
+    width: 20px;
+    display: inline-block;
+  }
+  #{&}-label {
+    display: inline-block;
+  }
 }
