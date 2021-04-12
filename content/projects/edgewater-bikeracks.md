@@ -9,7 +9,7 @@ project_type: 'project'
 
 ---
 
-A brief description of the project.
+City of Chicago bike racks in Edgewater.
 
  <!--more--> 
 

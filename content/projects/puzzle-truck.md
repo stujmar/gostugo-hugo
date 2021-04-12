@@ -9,7 +9,7 @@ square_thumbnail: ''
 date_range: "(2014 - 2017)"
 
 ---
-A brief description of the project.
+A wooden puzzle that becomes a pull toy.
 
  <!--more--> 
 

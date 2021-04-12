@@ -9,7 +9,7 @@ project_type: project
 date_range: "(2017 - Current)"
 
 ---
-A brief description of the project.
+Earth science educational content.
 
  <!--more--> 
 

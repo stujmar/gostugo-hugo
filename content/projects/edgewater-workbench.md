@@ -9,7 +9,7 @@ project_type: project
 date_range: "(2014-2019)"
 
 ---
-A brief description of the project.
+A community arts and events space.
 
  <!--more--> 
 

@@ -10,7 +10,7 @@ project_type: 'project'
 
 ---
 
-A brief description of the project.
+The story of an egg yolk in a hard boiled world.
 
  <!--more--> 
 
