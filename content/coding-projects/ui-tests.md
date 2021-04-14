@@ -9,7 +9,7 @@ project_type: coding project
 
 ---
 
-A brief description of the project.
+This is a playground to test UI libraries.
 
  <!--more--> 
 

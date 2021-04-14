@@ -9,7 +9,7 @@ project_type: coding project
 
 ---
 
-A brief description of the project.
+This is an incremental idle broweser game.
 
  <!--more--> 
 

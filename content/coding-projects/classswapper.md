@@ -9,7 +9,7 @@ project_type: coding project
 date_range: "(2021)"
 
 ---
-A brief description of the project.
+An npm tool that swaps out HTML/CSS classes in JS
 
  <!--more--> 
 

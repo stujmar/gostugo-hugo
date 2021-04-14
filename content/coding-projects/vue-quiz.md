@@ -9,7 +9,7 @@ project_type: coding project
 
 ---
 
-A brief description of the project.
+A Vue quiz made with a Vue CDN.
 
  <!--more--> 
 

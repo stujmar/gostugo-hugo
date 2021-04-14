@@ -9,7 +9,7 @@ square_thumbnail: ''
 
 ---
 
-A brief description of the project.
+Calulate componding interest with this nifty recursive method.
 
  <!--more--> 
 

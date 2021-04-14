@@ -9,7 +9,7 @@ project_type: coding project
 date_range: "(2020)"
 
 ---
-A brief description of the project.
+A processing based forestry simulator.
 
  <!--more--> 
 
