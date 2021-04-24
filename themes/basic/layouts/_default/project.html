@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <div class="project">
+        <div class="project-title">{{ .Params.title }}</div>
+        <img class="project-photo" src={{ .Params.project_image}} alt="picture of Stuart John Marsh">
+        <p>{{ .Params.project_description }}</p>
+        <hr>
+        <div class="project-text">
+            {{ .Content }}
+        </div>
+        <div class="project-back">
+            {{ if eq .Params.project_type "coding project" }} 
+            <a  href="/coding-projects">back to coding projects</a>
+            {{ else }}
+            <a  href="/projects">back to projects</a>
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

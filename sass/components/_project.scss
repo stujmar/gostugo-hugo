@@ -1,12 +1,27 @@
-.project-photo {
+.project {
+  padding: 20px;
+  border-bottom: 1px solid $border-grey;
+  color: $text-grey;
+  font-size: 1.25rem;
+  font-weight: 300;
+
+  #{&}-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 0 8px 0px;
+  }
+
+  #{&}-photo {
     width: 75%;
     border: 1px solid black;
-}
+  }
 
-.project-back {
-    margin-left: 10px;
-}
+  #{&}-back {
+    margin-top: 10px;
+  }
 
-.project-back:hover {
+  #{&}-back:hover {
     color: $hover-green;
+  }
 }
