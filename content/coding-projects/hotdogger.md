@@ -5,7 +5,7 @@ layout: project
 project_image: "/uploads/hotdogger.png"
 project_description: ''
 square_thumbnail: ''
-project_type: ''
+project_type: coding project
 date_range: "(2020-2021)"
 
 ---
