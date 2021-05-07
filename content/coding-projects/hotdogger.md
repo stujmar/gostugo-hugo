@@ -5,11 +5,11 @@ layout: project
 project_image: "/uploads/hotdogger.png"
 project_description: ''
 square_thumbnail: ''
-project_type: coding project
+project_type: ''
+date_range: "(2020-2021)"
 
 ---
-
-This is an incremental idle broweser game.
+A brief description of the project.
 
  <!--more--> 
 
