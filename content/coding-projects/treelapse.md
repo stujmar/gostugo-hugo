@@ -1,5 +1,5 @@
 ---
-title: Tree Painter
+title: Treelapse
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
 project_image: "/uploads/treepainter.png"
