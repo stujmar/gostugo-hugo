@@ -7,6 +7,7 @@ project_description: ''
 square_thumbnail: ''
 project_type: coding project
 date_range: "(2020-2021)"
+live: true
 
 ---
 Hot Dogger is an idle-clicker game made in vanilla Javascript.

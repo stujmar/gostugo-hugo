@@ -6,6 +6,7 @@ project_type: coding project
 project_image: "/uploads/interest.png"
 project_description: ''
 square_thumbnail: ''
+live: true
 
 ---
 

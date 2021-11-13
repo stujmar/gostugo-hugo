@@ -7,6 +7,7 @@ project_description: ''
 square_thumbnail: ''
 project_type: coding project
 date_range: "(2021)"
+live: false
 
 ---
 An npm tool that swaps out HTML/CSS classes in JS

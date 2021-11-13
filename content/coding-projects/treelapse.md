@@ -6,7 +6,8 @@ project_image: "/uploads/treelapse.jpg"
 project_description: ''
 square_thumbnail: ''
 project_type: coding project
-date_range: "(2020)"
+date_range: "(2021)"
+live: true
 
 ---
 An interactive timelapse simulation of a forest growing.

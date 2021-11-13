@@ -6,6 +6,7 @@ project_image: "/uploads/uitests.png"
 project_description: ''
 square_thumbnail: ''
 project_type: coding project
+live: true
 
 ---
 
