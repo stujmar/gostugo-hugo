@@ -6,6 +6,7 @@ project_image: "/uploads/vue.png"
 project_description: ''
 square_thumbnail: ''
 project_type: coding project
+live: true
 
 ---
 
