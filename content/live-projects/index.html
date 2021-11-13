@@ -8,5 +8,8 @@
 </head>
 <body>
     List live projects here.
+    {{ range .Pages }}
+    <div>{{ . }}</div>
+    {{ end }}
 </body>
 </html>
