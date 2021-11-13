@@ -9,7 +9,7 @@ project_type: coding project
 date_range: "(2020-2021)"
 
 ---
-A brief description of the project.
+Hot Dogger is an idle-clicker game made in vanilla Javascript.
 
  <!--more--> 
 
