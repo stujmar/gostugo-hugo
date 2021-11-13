@@ -1,5 +1,5 @@
 ---
-title: Treelapse
+title: Tree Painter
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
 project_image: "/uploads/treepainter.png"
@@ -9,7 +9,7 @@ project_type: coding project
 date_range: "(2020)"
 
 ---
-An interactive timelapse simulation of a forest growing.
+A processing based forestry simulator.
 
  <!--more--> 
 
