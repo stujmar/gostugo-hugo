@@ -31,4 +31,4 @@ fields:
   label: NFT Image
   description: Add an image of the NFT here.
 pages:
-- nft/hamburger-man.md
+- content/nft/hamburger-man.md
