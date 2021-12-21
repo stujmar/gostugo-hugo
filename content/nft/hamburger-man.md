@@ -4,5 +4,5 @@ draft = true
 nft_image = ""
 slug = "001-hamburger"
 title = "Hamburger Man"
-
+layout = "nft"
 +++
