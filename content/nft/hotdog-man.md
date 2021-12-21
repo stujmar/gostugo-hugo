@@ -4,4 +4,5 @@ draft: false
 nft_image: ""
 slug: "002-dogburger"
 title: "Dog Man"
+layout: nft
 ---
