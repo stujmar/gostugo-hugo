@@ -30,3 +30,5 @@ fields:
     maxSize: 64
   label: NFT Image
   description: Add an image of the NFT here.
+pages:
+- nft/hamburger-man.md
