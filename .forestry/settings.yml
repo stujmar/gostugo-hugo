@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: nft
+  path: content/nft
   label: NFT
   create: all
   match: "**/*"
