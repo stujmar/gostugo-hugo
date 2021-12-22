@@ -18,5 +18,12 @@
         "statusBarItem.remoteBackground": "#273d58",
         "statusBarItem.remoteForeground": "#e7e7e7"
     },
-    "peacock.color": "#273d58"
+    "peacock.color": "#273d58",
+    "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/static"
+        }
+      ]
 }
