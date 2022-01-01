@@ -1,9 +1,10 @@
 {{ define "main" }}
 <div class="nfts">
     <h2 class="nfts-title">{{ .Title }}</h2>
-    <ul>
+    <ul class="nfts-list">
       {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+
+      <li class="nft-item"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
 </div>

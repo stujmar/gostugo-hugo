@@ -1,7 +1,14 @@
 .nfts {
-  border: 1px solid red;
+  border: 2px solid red;
   &-title {
     text-align: center;
+  }
+  &-list {
+    border: 2px solid greenyellow;
+  }
+  &-item {
+    margin: 5px;
+    border: 2px solid purple;
   }
 }
 
