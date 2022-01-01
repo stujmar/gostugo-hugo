@@ -5,9 +5,13 @@
   }
   &-list {
     border: 2px solid greenyellow;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   &-item {
     margin: 5px;
+    text-decoration: none;
+    list-style: none;
     border: 2px solid purple;
   }
 }
