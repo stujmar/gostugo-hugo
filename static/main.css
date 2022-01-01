@@ -620,6 +620,10 @@ a, a:hover, a:focus, a:active {
   list-style: none;
   border: 2px solid purple;
 }
+.nfts-image {
+  width: 100%;
+  height: auto;
+}
 
 .nft {
   border: 1px solid blue;
