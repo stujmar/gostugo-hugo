@@ -2,6 +2,12 @@
 <div class="nft">
   <h2 class="nft-title">{{ .Title }}</h2>
   {{ .Params.description }}<br/>
+  {{ if .Params.colors }}
+  <p>there are colors</p>
+  {{ range .Params.colors }}
+  <img src="https://res.cloudinary.com/go-stu-go/image/upload/v1641098261/food/{{ $.Params.type }}_{{ . }}.gif" /> 
+  {{ end }}
+  {{ end }}
   <a href="/nft">back to nfts</a>
 </div>
 {{ end }}
