@@ -603,22 +603,18 @@ a, a:hover, a:focus, a:active {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-.nfts {
-  border: 2px solid red;
-}
 .nfts-title {
+  margin: 24px 0;
   text-align: center;
 }
 .nfts-list {
-  border: 2px solid greenyellow;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .nfts-item {
-  margin: 5px;
+  margin-top: -4px;
   text-decoration: none;
   list-style: none;
-  border: 2px solid purple;
 }
 .nfts-image {
   width: 100%;
@@ -626,12 +622,49 @@ a, a:hover, a:focus, a:active {
 }
 
 .nft {
-  border: 1px solid blue;
-}
-.nft-title {
+  margin: 0 24px;
   text-align: center;
 }
+.nft-title {
+  margin: 24px 0;
+  text-align: center;
+}
+.nft-grid {
+  width: max-content;
+  margin: 24px auto 0;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.nft-grid-item {
+  margin: 5px;
+  width: 250px;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.nft-back {
+  color: #9b9b9b;
+  display: block;
+  margin-top: 16px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-right: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
+@media only screen and (min-width: 640px) {
+  .nft-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nft-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
 .footer {
   box-sizing: border-box;
   display: block;
