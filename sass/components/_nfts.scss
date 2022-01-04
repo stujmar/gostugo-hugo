@@ -5,16 +5,22 @@
   }
   &-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 auto;
+    width: max-content;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   &-item {
-    margin-top: -4px;
     text-decoration: none;
     list-style: none;
+    margin: 5px;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   }
   &-image {
-    width: 100%;
-    height: auto;
   }
 }
 
@@ -35,7 +41,6 @@
       width: 250px;
       text-decoration: none;
       list-style: none;
-      // border: 1px solid purple;
       border-radius: 10px;
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
     }
@@ -64,6 +69,11 @@
       }
     }
   }
+  .nfts {
+    &-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 }
 
 // TAILWIND: md
@@ -75,6 +85,11 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       &-item {
       }
+    }
+  }
+  .nfts {
+    &-list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 }
