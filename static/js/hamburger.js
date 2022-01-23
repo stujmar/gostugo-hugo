@@ -18,3 +18,4 @@ for (let i = 0; i < coll.length; i++) {
 }
 
 console.log("js loaded");
+
