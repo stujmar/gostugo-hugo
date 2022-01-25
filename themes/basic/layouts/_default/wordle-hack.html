@@ -11,7 +11,7 @@
 </head>
   <body>
       <div id="content"></div>
-    <script src="wordl.js"></script>
+    <script src="/js/wordle.js"></script>
     <script>
       Vue.config.devtools = true
       new Vue({ 
@@ -141,10 +141,7 @@
             </div>
             <div class="container -mt-2 mx-auto">
               <p class="text-gray-800 text-center text-sm">[[results.length]] results</p>
-              <div v-if="isThinking">
-                <img class="block mx-auto" width="250px" src="./loading.gif" />
-              </div>
-            <ul v-show="!isThinking" class="flex flex-wrap mt-4 text-gray-400">
+            <ul class="flex flex-wrap mt-4 text-gray-400">
               <li class="mx-2" v-for="word in results" :key="word">
                 [[ word ]]
               </li>
