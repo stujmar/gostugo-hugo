@@ -17,8 +17,9 @@
         <img class="entry-image" src="{{ .Params.project_image }}" alt="placeholder">
         <div class="entry-body">
             <h2 class="entry-title">{{ .Title }}</h2>
-            <!-- <hr> -->
-            <p class="entry-copy">{{ .Summary }}</p>
+            <p class="entry-copy">
+             {{ .Params.project_description }}
+            </p>
         </div>
     </a>
     </li>

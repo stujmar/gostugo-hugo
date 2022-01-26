@@ -4,7 +4,7 @@ date: 2021-03-12T19:25:42.000-06:00
 layout: project
 project_type: project
 project_image: "/uploads/puzzle.png"
-project_description: ''
+project_description: A wooden puzzle that becomes a pull toy.
 square_thumbnail: ''
 date_range: "(2014 - 2017)"
 
