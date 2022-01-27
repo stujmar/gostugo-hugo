@@ -13,8 +13,9 @@
   }
 
   #{&}-photo {
-    width: 75%;
-    border: 1px solid black;
+    // width: 75%;
+    max-width: 300px;
+
   }
 
   #{&}-back {

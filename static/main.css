@@ -340,7 +340,7 @@ template {
 * {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto", sans-serif;
 }
 
 html, body {
@@ -523,8 +523,7 @@ a, a:hover, a:focus, a:active {
   padding: 0 0 8px 0px;
 }
 .project .project-photo {
-  width: 75%;
-  border: 1px solid black;
+  max-width: 300px;
 }
 .project .project-back {
   margin-top: 10px;
@@ -539,15 +538,15 @@ a, a:hover, a:focus, a:active {
 }
 .projects .projects-header {
   width: 75%;
-  margin: 20px auto 35px;
+  margin: 20px 25px 35px;
   font-size: 1.35rem;
-  font-weight: 500;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 300;
+  color: #444;
+  font-family: "Roboto", sans-serif;
 }
 
 .coding {
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 10px;
   font-size: 1.1rem;
   text-decoration: underline;
@@ -578,8 +577,7 @@ a, a:hover, a:focus, a:active {
   font-size: 1.2rem;
   padding: 8px 5px 0;
   font-weight: 500;
-  font-family: "Josefin Sans", sans-serif;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .entry .entry-body {
   margin-top: -4px;

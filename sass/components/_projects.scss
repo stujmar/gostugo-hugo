@@ -5,16 +5,16 @@
 
   #{&}-header {
     width: 75%;
-    margin: 20px auto 35px;
+    margin: 20px 25px 35px;
     font-size: 1.35rem;
-    font-weight: 500;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
   }
 }
 
 .coding {
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 10px;
   font-size: 1.1rem;
   text-decoration: underline;
@@ -46,9 +46,9 @@
     font-size: 1.2rem;
     padding: 8px 5px 0;
     font-weight: 500;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
+
   #{&}-body {
     margin-top: -4px;
     width: 100%;
