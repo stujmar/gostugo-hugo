@@ -510,9 +510,9 @@ a, a:hover, a:focus, a:active {
   }
 }
 .project {
-  padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #949494;
   color: rgba(0, 0, 0, 0.75);
+  margin: 0 20px;
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -522,11 +522,23 @@ a, a:hover, a:focus, a:active {
   font-weight: 500;
   padding: 0 0 8px 0px;
 }
+.project-description {
+  text-align: left;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 0 0 8px 0px;
+}
+.project-text {
+  margin-top: 10px;
+}
 .project .project-photo {
   max-width: 300px;
 }
 .project .project-back {
-  margin-top: 10px;
+  margin: 20px 20px 20px 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-decoration: underline;
 }
 .project .project-back:hover {
   color: #8acf1b;
