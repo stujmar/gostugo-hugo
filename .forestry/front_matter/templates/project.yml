@@ -24,12 +24,12 @@ fields:
     maxSize: 64
   label: Project image
   description: upload an image to represent the project please.
-- name: square_thumbnail
+- name: secondary_photo
   type: file
   config:
     maxSize: 64
-  label: Square thumbnail
-  description: Please upload a square thumbnail preview image to represent the project
+  label: Secondary photo
+  description: Visible on the project page
 - name: project_type
   type: select
   default: []
