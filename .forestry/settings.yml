@@ -26,10 +26,10 @@ sections:
   label: Coding Projects
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: home/gostugo
+public_path: https://cloudinary.com/console/c-936998b90b0ebd8cd03f270bd0c5bf/media_library/folders/bf51f6b93d091f899126c6adf92b974463
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
