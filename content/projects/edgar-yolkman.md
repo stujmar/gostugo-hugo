@@ -5,7 +5,9 @@ layout: project
 project_image: "/uploads/yolkman.png"
 project_description: The story of an egg yolk in a hard boiled world.
 square_thumbnail: ''
-project_type: 'project'
+project_type: project
+secondary_photo: https://cloudinary.com/console/c-936998b90b0ebd8cd03f270bd0c5bf/media_library/folders/bf51f6b93d091f899126c6adf92b974463/v1643427985/home/gostugo/yolkman_wx2az3.png
+date_range: ''
 
 ---
- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
