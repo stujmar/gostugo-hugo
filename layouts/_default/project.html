@@ -5,7 +5,7 @@
         <p class="project-description">{{ .Params.project_description }}</p>
         <hr>
         <div class="project-text">
-            {{ .Content }}
+            {{ .Content | markdownify }}
         </div>
         <div class="project-back">
             {{ if eq .Params.project_type "coding project" }} 
