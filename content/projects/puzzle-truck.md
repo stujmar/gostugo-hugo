@@ -3,7 +3,7 @@ title: Puzzle Truck
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
 project_type: project
-project_image: "/uploads/puzzle.png"
+project_image: https://res.cloudinary.com/go-stu-go/image/upload/v1643427985/v1643691552/home/gostugo/puzzle_ncaicv.png
 project_description: A wooden puzzle that becomes a pull toy. [Here is a link to the
   project](https://www.indiegogo.com/projects/my-african-toy-puzzle-truck-education-environment#/
   "Puzzle Truck Indiegogo")
