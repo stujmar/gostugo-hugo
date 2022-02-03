@@ -6,6 +6,7 @@
         <hr>
         <div class="project-text">
             {{ .Content | markdownify }}
+            <img class="project-photo" src={{ .Params.secondary_photo }} alt="picture of Stuart John Marsh">
         </div>
         <div class="project-back">
             {{ if eq .Params.project_type "coding project" }} 
