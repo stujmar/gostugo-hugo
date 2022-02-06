@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">{{ .Params.title }}</div>
         <img class="project-photo" src={{ .Params.project_image}} alt="picture of Stuart John Marsh">
-        <p class="project-description">{{ .Params.project_description }}</p>
+        <p class="project-description">{{ .Params.project_description | markdownify }}</p>
         <hr>
         <div class="project-text">
             {{ .Content | markdownify }}
