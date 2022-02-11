@@ -51,6 +51,20 @@ fields:
     required: false
   label: Date Range
   description: add the date range of the project (2011-2014) for example
+- name: layout
+  type: select
+  default: project
+  config:
+    required: false
+    options:
+    - coding-project
+    - project
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: layout
 pages:
 - content/coding-projects/classswapper.md
 - content/coding-projects/compound-interest.md
