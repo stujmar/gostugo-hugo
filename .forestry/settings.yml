@@ -5,17 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/nft
-  label: NFT
-  create: all
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
   match: "*"
 - type: heading
   label: Projects
+- type: directory
+  path: content/nft
+  label: NFT
+  create: all
+  match: "**/*"
 - type: directory
   path: content/projects
   label: Projects
