@@ -1,0 +1,7 @@
+baseURL: 'https://gostugo.netlify.app/'
+languageCode: en-us
+title: Go Stu Go
+params:
+  author: Stuart John Marsh
+  logo: /logo.png
+  metaDataFormat: yaml
