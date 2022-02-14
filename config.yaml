@@ -4,4 +4,4 @@ title: Go Stu Go
 params:
   author: Stuart John Marsh
   logo: /logo.png
-  metaDataFormat: yaml
+metaDataFormat: yaml
