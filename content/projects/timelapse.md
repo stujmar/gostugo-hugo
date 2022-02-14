@@ -6,6 +6,6 @@ project_description = "This is the project and here is a random[ link](www.googl
 project_image = "https://res.cloudinary.com/go-stu-go/image/upload/v1644551611/home/gostugo/new_lines_iexk2y.png"
 project_type = "project"
 secondary_photo = "https://res.cloudinary.com/go-stu-go/image/upload/v1644551620/home/gostugo/bed_test_02_aweeb8.png"
-title = "Timelapse"
+title = "Timelapse Test"
 
 +++
