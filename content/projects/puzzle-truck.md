@@ -13,4 +13,7 @@ secondary_photo: ''
 
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+The Project: Puzzle Truck is a three-dimensional wooden puzzle that assembles into a working pull toy.
+My Role: My friend James Kitia came to me with the idea of making a toy truck for his kids based on toys he made as a child in Tanzania. Using my lasercutter, we spent years on iterative design and prototyping to developed a finished prodcut worthy of store shelves. James and I also went through the Rogers Park Business Alliance's small business incubator program to help develop a scalable business plan. While the Puzzle Truck isn't currently in production, it remains on the back burner of my mind.
+Takeaways: I learned a lot about design and iteration, as well as collaborating and making compromises. We also explored obtaining a patent on the Puzzle Truck, which taught me about design patents vs. utility patents and patenting vs. copywriting.
+[Puzzle Truck IndieGoGo](https://igg.me/at/puzzletruck/x#/)
