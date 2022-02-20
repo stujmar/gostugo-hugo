@@ -18,7 +18,7 @@
         <div class="entry-body">
             <h2 class="entry-title">{{ .Title }}</h2>
             <p class="entry-copy">
-             {{ .Params.project_description }}
+             {{ .Params.project_description | markdownify }}
             </p>
         </div>
     </a>
