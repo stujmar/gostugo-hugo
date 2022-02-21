@@ -2,6 +2,7 @@
 title: Earthmounds
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
+project_summary: 'A 3D printed model of a tree with a hole in it.'
 project_description: 'Earth science educational content.'
 project_image: "/uploads/earthmounds.png"
 square_thumbnail: ''

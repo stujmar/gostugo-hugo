@@ -2,6 +2,7 @@
 title: Edgewater Bike Racks
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
+project_summary: 'A community bike rack.'
 project_description: 'City of Chicago bike racks in Edgewater.'
 project_image: "/uploads/bikerack.png"
 square_thumbnail: ''

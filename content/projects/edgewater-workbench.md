@@ -2,6 +2,7 @@
 title: Edgewater Workbench
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
+project_summary: 'A workbench for the Edgewater neighborhood.'
 project_description: 'A community arts and events space.'
 project_image: "/uploads/workbench.png"
 square_thumbnail: ''
