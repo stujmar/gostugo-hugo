@@ -349,7 +349,7 @@ html, body {
 
 .wrapper {
   padding-bottom: 80px;
-  min-height: calc(100% -75px);
+  min-height: calc(100% - 75px);
 }
 
 .main {
@@ -569,10 +569,10 @@ a, a:hover, a:focus, a:active {
 }
 
 .projects-wrapper {
-  margin: 0 25px;
+  margin: 0 80px;
   display: grid;
-  row-gap: 5px;
-  column-gap: 10px;
+  row-gap: 25px;
+  column-gap: 20px;
   grid-template-columns: 1fr;
 }
 
@@ -583,21 +583,22 @@ a, a:hover, a:focus, a:active {
   position: relative;
   overflow: hidden;
   transition: all 0.1s;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .entry .entry-title {
+  font-family: "Roboto", sans-serif !important;
   color: #1d1c1c;
-  font-size: 1.2rem;
-  padding: 8px 5px 0;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  padding: 4px 5px 0;
+  font-weight: 400;
+  margin-top: 16px;
+  border-top: 4px yellowgreen solid;
 }
 .entry .entry-body {
-  position: absolute;
   width: 100%;
   bottom: 0;
   height: 75px;
-  background: #fafcfea6;
+  background: #fafcfe;
+  background: white;
   display: flex;
   flex-direction: column;
 }
