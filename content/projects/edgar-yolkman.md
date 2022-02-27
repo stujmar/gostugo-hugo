@@ -2,8 +2,8 @@
 title: Edgar Yolkman
 date: 2021-03-12T19:25:42.000-06:00
 layout: project
-project_image: "/uploads/yolkman.png"
-project_summary: ' A Sentient Egg, a 3D printed model of a chicken.'
+project_image: https://res.cloudinary.com/go-stu-go/image/upload/v1645938831/home/gostugo/grocery_02b_lxaebs.png
+project_summary: " A Sentient Egg, a 3D printed model of a chicken."
 project_description: The story of an egg yolk in a hard boiled world.
 square_thumbnail: ''
 project_type: project
