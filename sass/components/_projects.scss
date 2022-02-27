@@ -27,6 +27,7 @@
 .projects-wrapper {
   margin: 0 80px;
   display: grid;
+  grid-auto-rows: 1fr;
   row-gap: 25px;
   column-gap: 20px;
   grid-template-columns: 1fr;
@@ -45,11 +46,11 @@
     // font-family: 'Special Elite', cursive !important;
     font-family: "Roboto", sans-serif !important;
     color: rgb(29, 28, 28);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 4px 5px 0;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 16px;
-    border-top: 4px yellowgreen solid;
+    border-top: 3px rgb(173, 230, 61) solid;
   }
 
   #{&}-body {

@@ -571,6 +571,7 @@ a, a:hover, a:focus, a:active {
 .projects-wrapper {
   margin: 0 80px;
   display: grid;
+  grid-auto-rows: 1fr;
   row-gap: 25px;
   column-gap: 20px;
   grid-template-columns: 1fr;
@@ -587,11 +588,11 @@ a, a:hover, a:focus, a:active {
 .entry .entry-title {
   font-family: "Roboto", sans-serif !important;
   color: #1d1c1c;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 4px 5px 0;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 16px;
-  border-top: 4px yellowgreen solid;
+  border-top: 3px #ade63d solid;
 }
 .entry .entry-body {
   width: 100%;
