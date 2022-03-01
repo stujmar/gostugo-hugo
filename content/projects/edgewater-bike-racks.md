@@ -5,7 +5,7 @@ title: Edgewater Bike Racks
 date: 2022-02-24T06:00:00+00:00
 project_description: Lorem Ipsum
 project_image: https://res.cloudinary.com/go-stu-go/image/upload/v1645940034/home/gostugo/bikerack_rr1ku0.png
-secondary_photo: ''
+secondary_photo: https://res.cloudinary.com/go-stu-go/image/upload/v1643691552/home/gostugo/puzzle_ncaicv.png
 date_range: "(2015)"
 
 ---
