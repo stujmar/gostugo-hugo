@@ -546,7 +546,9 @@ a, a:hover, a:focus, a:active {
 
 .projects {
   background: white;
+  margin: 0 auto;
   color: rgba(0, 0, 0, 0.75);
+  width: 100%;
 }
 .projects .projects-header {
   width: 75%;
@@ -616,18 +618,40 @@ a, a:hover, a:focus, a:active {
 }
 
 @media only screen and (min-width: 640px) {
+  .projects {
+    max-width: 640px;
+  }
+
   .projects-wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media only screen and (min-width: 768px) {
+  .projects {
+    max-width: 768px;
+  }
+
   .projects-wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media only screen and (min-width: 1024px) {
+  .projects {
+    max-width: 1024px;
+  }
+
   .projects-wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .projects {
+    max-width: 1280px;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .projects {
+    max-width: 1536px;
   }
 }
 .nfts-title {
