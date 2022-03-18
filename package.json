@@ -1,20 +1,30 @@
 {
-  "name": "gostugo-hugo",
-  "version": "1.0.0",
-  "description": "![Go Stu Go](./readme.png)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "author": "",
+ "bugs": {
+  "url": "https://github.com/stujmar/gostugo-hugo/issues"
+ },
+ "comments": {
+  "dependencies": {
+   "vue": "project"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stujmar/gostugo-hugo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stujmar/gostugo-hugo/issues"
-  },
-  "homepage": "https://github.com/stujmar/gostugo-hugo#readme"
+  "devDependencies": {}
+ },
+ "dependencies": {
+  "vue": "^3.2.31"
+ },
+ "description": "![Go Stu Go](./readme.png)",
+ "devDependencies": {},
+ "homepage": "https://github.com/stujmar/gostugo-hugo#readme",
+ "keywords": [],
+ "license": "ISC",
+ "main": "index.js",
+ "name": "gostugo-hugo",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/stujmar/gostugo-hugo.git"
+ },
+ "scripts": {
+  "test": "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+ },
+ "version": "1.0.0"
 }
