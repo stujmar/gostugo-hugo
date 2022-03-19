@@ -24,6 +24,7 @@
   "url": "git+https://github.com/stujmar/gostugo-hugo.git"
  },
  "scripts": {
+  "version": "hugo version",
   "test": "echo \"Error: no test specified\" \u0026\u0026 exit 1"
  },
  "version": "1.0.0"
