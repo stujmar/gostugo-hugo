@@ -7,7 +7,8 @@ project_image: https://res.cloudinary.com/go-stu-go/image/upload/v1643691552/hom
 project_summary: A 3D printed model of a truck with a puzzle inside.
 project_description: A wooden puzzle that becomes a pull toy. [Here is a link to the
   project](https://www.indiegogo.com/projects/my-african-toy-puzzle-truck-education-environment#/
-  "Puzzle Truck Indiegogo")
+  "Puzzle Truck Indiegogo") Combine puzzle solving with active play in this unique
+  experience you can enjoy as a family.
 square_thumbnail: ''
 date_range: "(2014 - 2017)"
 secondary_photo: https://res.cloudinary.com/go-stu-go/image/upload/v1643691552/home/gostugo/puzzle_ncaicv.png
